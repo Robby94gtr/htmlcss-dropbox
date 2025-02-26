@@ -131,6 +131,13 @@ h1{
     margin-top: 72px;
 }
 
+.jumbo-img{
+    width: 50%;
+    position: absolute;
+    right: 230px;
+    top: 444px
+}
+
 .business-container{
     max-width: 1200px;
     display: flex;
