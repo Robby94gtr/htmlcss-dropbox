@@ -3,3 +3,98 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+header{
+    background-color: red;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+}
+
+/* layout */
+
+.container{
+    max-width: 1908px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.content-header{
+    padding: 8px;
+ }
+
+.col-50{
+    width: 50%;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+/* utility */
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.font-size{
+    font-size: 30px;
+}
+
+.font-weight{
+    font-weight: 500;
+}
+
+.text-right{
+    text-align: right;
+
+}
+
+.pt-11px{
+    padding-top: 11px;
+}
+
+
+.white{
+    color: white;
+}
+
+.line-height{
+    line-height: 22px;
+}
+
+
+/* page content */
+
+.content-header ul{
+    list-style-type: none;
+}
+
+.content-header ul li{
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.content-header ul li a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.fa-brands{
+    color: blue;
+}
+
+.button{
+    display: inline-block;
+    width: 45px;
+    padding: 0 4px;
+    background-color: blue;
+    text-align: center;
+}
+
+
