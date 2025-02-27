@@ -249,6 +249,8 @@ p{
     min-height: 20%;
 }
 
+/* business */
+
 .business-container{
     max-width: 1200px;
     display: flex;
@@ -265,6 +267,8 @@ p{
 .margin-business{
     margin: 45px auto;
 }
+
+/* contact */
 
 .contact-container{
     max-width: 1200px;
@@ -292,14 +296,58 @@ p{
     max-height: 614px;
 }
 
+/* Cards */
+
 .cards-container{
     max-width: 1200px;
     display: flex;
     margin: 0px auto;
     background-color: rgb(0, 13, 255);
     height: 1400px;
-    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.height-max-c{
+    height: max-content;
+ }
+ 
+ h3{
+    font-size: 50px;
+    padding: 8px 0px;
+ }
+
+ h4{
+    font-size: 29px;
+ }
+
+.pt-25px{
+    padding-top: 25px;
+}
+
+ .black{
+    color: black;
+ }
+
+ .cards{
+    height: 86%;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px 59px;
+ }
+ .width-65{
+    width: 65%;
+ }
+ 
+ .bg-red{
+    background-color: red;
+ }
+
+ .height-45{
+    height: 45%;
+ }
+ 
 
 .final-title-container{
     max-width: 1200px;
