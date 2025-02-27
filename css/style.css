@@ -6,6 +6,9 @@
 
 /* common */
 
+body{
+    font-family: "Noto Sans";
+}
 header{
     background-color: white;
     padding: 10px 0;
@@ -28,7 +31,7 @@ footer{
 /* layout */
 
 .container{
-    max-width: 1908px;
+    /* max-width: 1908px; */
     display: flex;
     margin-top: -3px;
     height: 60px;
@@ -152,8 +155,8 @@ h1{
 
 
 h1{
-    font-size: 78px;
-    padding: 77px 7px 5px 64px;
+    font-size: 85px;
+    padding: 54px 7px 5px 64px;
 }
 
 .square{
@@ -164,6 +167,12 @@ h1{
     display: flex;
     flex-wrap: wrap;
     margin-top: 27px;
+}
+
+.h2-business{
+    font-size: 40px;
+    padding: 3px 137px;
+    font-weight: 600;
 }
     
 
@@ -184,7 +193,7 @@ h1{
     width: 35%;
     /* background-color: rgb(0, 255, 60); */
     height: 558px;
-    font-size: 21px;
+    font-size: 19px;
     padding: 15px 28px 3px 64px;
 }
 
@@ -229,6 +238,7 @@ p{
     margin: 0px auto;
     background-color: rgb(0, 255, 55);
     height: 1600px;
+    justify-content: center;
 }
 
 .contact-container{
@@ -237,6 +247,7 @@ p{
     margin: 0px auto;
     background-color: rgb(255, 0, 251);
     height: 700px;
+    justify-content: center;
 }
 
 .cards-container{
@@ -245,6 +256,7 @@ p{
     margin: 0px auto;
     background-color: rgb(0, 13, 255);
     height: 1400px;
+    justify-content: center;
 }
 
 .final-title-container{
@@ -253,6 +265,7 @@ p{
     margin: 0px auto;
     background-color: rgb(225, 255, 0);
     height: 500px;
+    justify-content: center;
 }
 
 
