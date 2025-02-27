@@ -270,9 +270,26 @@ p{
     max-width: 1200px;
     display: flex;
     margin: 0px auto;
+    margin-bottom: 80px;
     background-color: rgb(255, 0, 251);
     height: 700px;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.img-partner{
+    width: 100%;
+}
+
+.width-60{
+    width: 60%;
+}
+
+.square-contact{
+    background-color: aquamarine;
+    width: 40%;
+    max-height: 614px;
 }
 
 .cards-container{
