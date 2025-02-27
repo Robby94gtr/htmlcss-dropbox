@@ -200,12 +200,17 @@ h1{
 }
 
 .card-img-jumbo{
-    background-image: url(../img/jumbo.png);
+    /* background-image: url(../img/jumbo.png); */
     background-size: cover;
     width: 72%;
     height: 579px;
     margin-top: 17px;
 }
+
+.width-1030{
+    width: 1030px;
+}
+
 .btn-blue{
     background-color: #0061FE;
     margin: 40px 5px 13px;
