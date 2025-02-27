@@ -315,6 +315,10 @@ p{
     width: 18%;
 }
 
+.price{
+    font-weight: bold;
+}
+
 /* contact */
 
 .contact-container{
