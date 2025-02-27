@@ -260,12 +260,59 @@ p{
     justify-content: center;
 }
 
+.margin-input{
+    margin: 0 20px 0 5px;
+}
+
 .margin-top-20{
     margin-top: 20px;
 }
 
 .margin-business{
     margin: 45px auto;
+}
+
+.business-type{
+    height: 6%;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.user{
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+
+.padding{
+    padding: 30px;
+    font-weight: 200;
+}
+
+.business-title{
+    font-size: 33px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+
+.business-title2{
+    font-size: 17px;
+    margin-bottom: 13px;
+    font-weight: 600;
+}
+
+.blue{
+    color: blue;
+}
+
+/* hr{
+    width: 18%;
+} */
+
+.hr-business{
+    width: 18%;
 }
 
 /* contact */
@@ -317,7 +364,7 @@ p{
     padding: 8px 0px;
  }
 
- h4{
+ .font-29{
     font-size: 29px;
  }
 
@@ -401,7 +448,7 @@ li{
 
 
 .border{
-    border: 1px solid black;
+    border: 1px solid rgb(121, 121, 121);
 }
 
 .foot-cards{
@@ -409,7 +456,7 @@ li{
     width: 20%;
 }
 
-h6{
+.foot-titles{
     font-size: 33px;
     padding: 84px 0px 23px 0
 }
@@ -418,16 +465,17 @@ h6{
     margin-bottom: 60px;
 }
 
-hr{
+hr.foot{
     width: 49%
 }
 
 .lang{
     font-size: 20px;
     font-style: normal;
+    padding-top: 37px;
 }
 
-i{
+.globe{
     font-size: 25px;
     margin-right: 20px;
 }
