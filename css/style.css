@@ -7,7 +7,7 @@
 /* common */
 
 header{
-    background-color: red;
+    background-color: white;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -42,8 +42,8 @@ footer{
 
 .col-50{
     width: 50%;
-    background-color: yellow;
-    border: 1px solid black;
+    /* background-color: yellow;
+    border: 1px solid black; */
 }
 
 h1{
@@ -122,21 +122,106 @@ h1{
 
 
 .jumbo-container{
-    max-width: 1908px;
+    /* max-width: 1908px; */
     display: flex;
     margin: 0px auto;
-    background-color: rgb(0, 255, 242);
+    /* background-color: rgb(0, 255, 242); */
     height: 900px;
     justify-content: center;
     margin-top: 72px;
 }
 
 .jumbo-img{
-    width: 50%;
+    width: 56%;
     position: absolute;
-    right: 230px;
-    top: 444px
+    right: 29px;
+    top: 474px;
 }
+
+.h-770{
+    height: 770px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.bg-aqua{
+    background-color: rgb(127, 189, 255);
+}
+
+
+h1{
+    font-size: 78px;
+    padding: 77px 7px 5px 64px;
+}
+
+.square{
+    max-width: 1300px;
+    /* background-color: red; */
+    height: 905px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+}
+    
+
+.title{
+    width: 100%;
+    /* background-color: aquamarine; */
+    height: 285px;
+}
+
+.jumbo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.jumbo-text{
+    width: 35%;
+    /* background-color: rgb(0, 255, 60); */
+    height: 558px;
+    font-size: 21px;
+    padding: 15px 28px 3px 64px;
+}
+
+.card-img-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    width: 65%;
+    height: 467px;
+    margin-top: 17px;
+}
+.btn-blue{
+    background-color: blue;
+    margin: 40px 5px 13px;
+    height: 67px;
+    font-size: 18px;
+    border: none;
+    padding: 12px;
+    width: 235px;
+}
+
+.annulla{
+    margin: 13px 5px 39px;
+}
+
+p{
+    color: rgb(88, 88, 88);
+}
+
+.arrow-down{
+    padding: 5px;
+    font-size: 49px;
+}
+
+
+
+
+
 
 .business-container{
     max-width: 1200px;
